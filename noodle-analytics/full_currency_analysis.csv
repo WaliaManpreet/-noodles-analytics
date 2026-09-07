@@ -1,0 +1,79 @@
+symbol,base_currency_desc,website,circulating_supply,max_supply,token_symbol,tweet_count,total_likes,total_retweets,total_impressions,twitter_score,post_count,total_upvotes,total_comments,total_score,reddit_score,has_twitter,has_reddit,twitter_power,reddit_power,social_power_score
+DJEDUSD,Djed,"['https://djed.xyz/', 'https://coti.io']",3293404.07,1000000000000,DJED,13.0,456.0,77.0,9450.0,704.5,0.0,0.0,0.0,0.0,0.0,True,False,50.90722528524666,0.0,20.362890114098665
+USDTUSD,Tether USDt,['https://tether.to'],186150733914.4796,,T,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDCUSD,USDC,['https://www.circle.com/en/usdc'],78603600504.58061,,C,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDS2USD,USDS,['https://sky.money/'],9912848232.125813,,S2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDEEUSD,Ethena USDe,['https://www.ethena.fi/'],6559535736.529217,,EE,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EDLCUSD,Edelcoin,['https://edelcoin.com/'],2651597541,5516931200,EDLC,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+DAIUSD,Dai,['https://makerdao.com/'],5365382702.664872,,DAI,172.0,779.0,129.0,34689.0,1383.8899999999999,105.0,545.0,459.0,545.0,1922.0,True,True,100.0,49.70261184380657,69.82156710628394
+SPAUSD,Sperax,['https://sperax.io/'],2048202287,5000000000,SPA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+PYUSDUSD,PayPal USD,['https://www.paypal.com/pyusd'],3914442448.689093,,PY,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+SUSDEUSD,Ethena Staked USDe,['https://www.ethena.fi/'],2919788110.7771544,,SE,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USD1WUSD,World Liberty Financial USD,['https://www.worldlibertyfinancial.com/'],2708240511.7462535,,1W,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDFFUSD,Falcon USD,['https://falcon.finance/'],2109734681.0051935,,FF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+GYENUSD,GYEN,['https://stablecoin.z.com/'],2098780833,,GYEN,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+BFUSDUSD,BFUSD,['https://www.binance.com/en/bfusd'],1902000000,,BF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USUALUSD,Usual,"['https://usual.money/', 'https://app.usual.money/']",1558602910.0827472,3000000000,USUAL,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDGGUSD,Global Dollar,['https://globaldollar.com'],1399832356.941531,,GG,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+SDAIUSD,Savings Dai,[],1134052883,,SDAI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+RLUSDUSD,Ripple USD,['https://ripple.com/solutions/stablecoin/'],1027698082.539,,RL,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDTBUSD,Ethena Labs (USDTb),['https://usdtb.money/'],850852355.9361826,,TB,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+FDUSDUSD,First Digital USD,['https://firstdigitallabs.com/'],699547629.611933,,FD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+MIMUSD,Magic Internet Money,['https://abracadabra.money/'],103827108,,MIM,188.0,808.0,59.0,31331.0,1239.31,100.0,1182.0,895.0,1182.0,3867.0,True,True,89.55263785416471,100.0,95.82105514166588
+USDDUSD,USDD,"['https://usdd.io/', 'https://usdd.network/']",694693785,,D,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDYOUSD,Ondo US Dollar Yield,['https://ondo.finance/'],622821776.2822926,,YO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USD0USD,Usual USD,['https://usual.money'],566456799.4424592,,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+TUSDUSD,TrueUSD,['https://tusd.io/'],494515083,,T,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+GHOUSD,GHO,['https://gho.xyz/'],455054663.033483,,GHO,87.0,405.0,258.0,35500.0,1276.0,0.0,0.0,0.0,0.0,0.0,True,False,92.20386013339211,0.0,36.88154405335685
+GUSD2USD,GUSD,,149440000,,G2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+FRAXUSD,Frax,['https://frax.finance'],314941093.02529263,,FRAX,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USRUSD,Resolv USR,['https://resolv.xyz/'],273286846.47,,USR,11.0,19.0,2.0,814.0,31.14,0.0,0.0,0.0,0.0,0.0,True,False,2.2501788436942243,0.0,0.9000715374776898
+CRVUSDUSD,crvUSD,['https://www.curve.finance/'],296500071.80643404,,CRV,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURCUSD,EURC,['https://www.circle.com'],287676766.6193551,,EURC,18.0,26.0,0.0,1476.0,40.76,0.0,0.0,0.0,0.0,0.0,True,False,2.945320798618387,0.0,1.1781283194473549
+TRYBUSD,BiLira,['https://www.bilira.co/'],239108455,,TRYB,2.0,2.0,0.0,48.0,2.48,0.0,0.0,0.0,0.0,0.0,True,False,0.17920499461662417,0.0,0.07168199784664968
+AUSDAGUSD,AUSD,['https://www.agora.finance/'],183201285.136224,,AAG,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDXMUSD,Stables Labs (USDX),"['http://stableslabs.com/', 'https://usdx.money/']",180925105,,XM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDNNOUSD,Noble Dollar,['https://www.noble.xyz/'],114930621,,NNO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+FRXUSDUSD,Frax USD,"['https://frax.com', 'https://app.frax.finance/']",111722852.917737,,FRX,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+MNEEUSD,MNEE,,103308912.1233,,MNEE,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+STNDUSD,Standard,['https://standardweb3.com'],85574950,,STND,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+DEUSDUSD,Elixir deUSD,['https://www.elixir.xyz'],92162304.55046055,,DE,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+XSGDUSD,XSGD,['https://www.straitsx.com/'],17462730.486569,,XSGD,3.0,8.0,4.0,536.0,21.36,0.0,0.0,0.0,0.0,0.0,True,False,1.5434752762141501,0.0,0.6173901104856601
+EURCVUSD,EUR CoinVertible,['https://www.sgforge.com/product/coinvertible/'],65755949,,EURCV,13.0,79.0,8.0,12749.0,222.49,0.0,0.0,0.0,0.0,0.0,True,False,16.07714485977932,0.0,6.430857943911729
+USDHHYUSD,Hyperliquid USD,['https://hyperliquid.xyz/'],46266089.747569,,HHY,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+CUSDUSD,Celo Dollar,"['https://celo.org/', 'https://thecelo.com/']",35554165.61936053,1000000000000000,C,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+BACUSD,Basis Cash,['https://basis.cash/'],54575145.21209248,,BAC,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDPUSD,Pax Dollar,[],51569455.21182543,,P,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURTUSD,Tether EURt,['https://tether.to'],36387340.03,,EURT,0.0,0.0,0.0,0.0,0.0,5.0,8.0,0.0,8.0,8.0,False,True,0.0,0.2068787173519524,0.12412723041117144
+AEURUSD,Anchored Coins AEUR,['https://www.anchoredcoins.com/en/landing'],47929604.6,67009654.6,AEUR,3.0,0.0,0.0,591.0,5.91,0.0,0.0,0.0,0.0,0.0,True,False,0.4270570637839713,0.0,0.17082282551358852
+GUSDUSD,Gemini Dollar,['https://www.gemini.com/dollar'],45818586.82,148548675.98,G,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURIUSD,Eurite,['https://www.eurite.com'],45218932.99990108,,EURI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+SUSDUSD,sUSD,['https://www.synthetix.io/'],41661520.62948125,142399574,S,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+LUSDUSD,Liquity USD,['https://www.liquity.org/'],37354341.58129677,,L,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+XUSD2USD,StraitsX USD,['https://www.straitsx.com/xusd'],36096294.451,,X2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDB2USD,USDB,"['https://blast.io/en', 'https://docs.blast.io/about-blast']",34367097.67347377,,B2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDAUSD,USDA,"['https://angle.money', 'https://app.angle.money']",30031636,30031636,A,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURAUSD,Angle Protocol,"['https://angle.money', 'https://app.angle.money']",27055701,,EURA,200.0,112.0,4.0,2845.0,148.45,6.0,9.0,3.0,9.0,18.0,True,True,10.727008649531394,0.46547711404189296,4.570089728237693
+YUSDAUSD,Aegis YUSD,"['https://aegis.im', 'https://beta.aegis.im']",26873600.08301367,,YA,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+ZUSD2USD,ZUSD,['https://stablecoin.z.com/'],19012373,,Z2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+AMPLUSD,Ampleforth,['https://www.ampleforth.org/'],28274493.6,,AMPL,20.0,152.0,100.0,2835.0,380.35,100.0,518.0,606.0,518.0,2336.0,True,True,27.484120847755243,60.408585466770106,47.238799619164155
+WUSD2USD,Worldwide USD,['https://wspn.io/'],4059371.973282,,W2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURRUSD,StablR Euro,['https://www.stablr.com'],11883541.95,,EURR,1.0,0.0,0.0,11792.0,117.92,0.0,0.0,0.0,0.0,0.0,True,False,8.520908453706582,0.0,3.408363381482633
+USDQUSD,Quantoz USDQ,['https://quantozpay.com'],7980049,,Q,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EUROPUSD,EUROP,['https://schuman.io/'],8395245,,EUROP,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDRSUSD,StablR USD,['https://stablr.com'],7667407.23,,RS,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+OUSDUSD,Origin Dollar,['https://www.ousd.com'],7569035.88757641,,O,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+EURQUSD,Quantoz EURQ,['https://www.quantozpay.com'],3350265,,EURQ,3.0,51.0,6.0,23351.0,296.51,0.0,0.0,0.0,0.0,0.0,True,False,21.425835868457753,0.0,8.5703343473831
+VCHFUSD,VNX Swiss Franc,['https://vnx.li/vchf/'],4109871.44582,,VCHF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+TGBPUSD,Tokenised GBP,,1135276.7,1135276.7,TGBP,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+FEIUSD,Fei USD,['https://fei.money/'],3342595.66001866,,FEI,19.0,5.0,0.0,1235.0,17.35,0.0,0.0,0.0,0.0,0.0,True,False,1.2537123615316248,0.0,0.5014849446126499
+CEURUSD,Celo Euro,['https://celo.org/#ceur'],3170073.77353703,,CEUR,9.0,6.0,0.0,141.0,7.41,0.0,0.0,0.0,0.0,0.0,True,False,0.5354471814956392,0.0,0.2141788725982557
+VEURUSD,VNX EURO,['https://vnx.li/veur/'],2764082.75105,,VEUR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDJUSD,USDJ,['https://just.network/'],9345748.83636516,,J,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+KAUUSD,Kinesis Gold,['https://kinesis.money/'],2464763.11,,KAU,33.0,204.0,24.0,26742.0,519.4200000000001,109.0,165.0,57.0,165.0,336.0,True,True,37.53332996119635,8.688906128782001,20.22667566174774
+FLXUSD,Reflexer Ungovernance Token,['https://reflexer.finance/'],193796,1000000,FLX,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDLUSD,Lift Dollar,['http://liftdollar.com/'],5220856.21864171,,L,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+MTRUSD,Meter Stable,['https://www.meter.io/'],391721,,MTR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+ONCUSD,One Cash,['https://onecash.finance/'],,,ONC,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+USDT0USD,USDT0,[],,,T0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
+XUSDXUSD,xDollar Stablecoin,['https://www.xdollar.fi'],,,XX,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,0.0,0.0,0.0
