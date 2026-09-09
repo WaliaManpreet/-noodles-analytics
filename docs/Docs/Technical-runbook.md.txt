@@ -1,0 +1,173 @@
+# Technical Runbook: Noodles Crypto Analytics
+
+## System Overview
+
+Python-based ETL pipeline loading currency data into MySQL (`noodles_dw`),
+with Power BI dashboards for executive reporting (connect via ODBC or MySQL connector).
+
+## Daily Operations
+
+### 1. Manual ETL Execution
+
+```bash
+# Activate Python environment
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Run complete pipeline (after Tasks 5–6)
+cd scripts
+Re-run Task 6 notebook (`06_powerbi_prep.ipynb`) if refreshing data
+```
+
+Expected Duration: 5-10 minutes
+Success Indicators:
+
+Exit code: 0
+Log file shows "Pipeline Finished Successfully"
+No errors in logs/ directory
+2. Automated Execution (Cron/Task Scheduler)
+Linux/Mac (cron):
+
+# Run daily at 6 AM
+0 6 * * * cd /path/to/noodles-analytics && jupyter nbconvert --execute 06_powerbi_prep.ipynb
+
+
+Windows (Task Scheduler):
+
+Open Task Scheduler
+Create Basic Task: "Noodles ETL"
+Trigger: Daily at 6:00 AM
+Action: Start program
+Program: C:\path\to\venv\Scripts\python.exe
+Arguments: execute Task 6 notebook or equivalent refresh job
+Start in: C:\path\to\noodles-analytics\scripts\
+3. Power BI Refresh
+Manual Refresh:
+
+Open Power BI Desktop
+Home → Refresh
+Wait 30-60 seconds for completion
+Scheduled Refresh (Power BI Service):
+
+Already configured: Daily at 7:00 AM
+Check dataset settings → Refresh history
+Troubleshoot gateway if failures occur
+Monitoring & Validation
+Check ETL Logs
+# View latest log
+tail -n 50 logs/etl_$(date +%Y%m%d)*.log
+
+# Check for errors
+grep -i error logs/etl_*.log
+
+Validate Data Quality
+# Run validation script
+Re-run validation cells in `06_powerbi_prep.ipynb` (Cell 7 + QA cells)
+
+
+Expected output:
+
+✓ No orphaned records
+✓ Row counts match expectations
+✓ All referential integrity checks pass
+Check Power BI Service
+Visit: https://app.powerbi.com
+Navigate to workspace
+Check dataset "Last Refresh" timestamp
+Verify no refresh errors
+Troubleshooting
+Issue: Python script fails with ImportError
+Symptom: ModuleNotFoundError: No module named 'pandas'
+
+Solution:
+
+pip install pandas sqlalchemy pymysql python-dotenv matplotlib seaborn
+
+
+Issue: Database connection fails
+Symptom: sqlalchemy.exc.OperationalError
+
+Solution:
+
+1. Check SQL is running
+2. Verify credentials in .env file
+3. Test connection:
+
+from etl.load import get_engine
+engine = get_engine()
+print("Connection successful!")
+
+Issue: Staging tables empty after ETL
+Symptom: Row counts = 0
+
+Solution:
+
+Check json files exist in data/raw/
+Verify file permissions (read access)
+Check reject files in data/rejects/ for data quality issues
+Review logs for error messages
+Issue: Power BI refresh fails
+Symptom: "Data source error" in Power BI Service
+
+Solution:
+
+Verify on-premises gateway is running
+Check gateway logs
+Test data source credentials
+Re-enter credentials in dataset settings
+File Locations
+Resource	Path
+json Files	data/raw/
+Notebooks	*.ipynb in project root
+SQL Scripts	sql/
+Logs	logs/
+Power BI Files	reports/
+Documentation	docs/
+Jupyter Notebooks	notebooks/
+Database Information
+Server: localhost (or your server name)
+Database: NoodlesDW
+Schemas: Staging, DW
+Authentication: MySQL user from .env (e.g. root)
+Key Contacts
+Data Engineer: [Manpreet Walia]
+Database Admin: [DBA Name]
+Business Owner: [Stakeholder Name]
+Backup & Recovery
+Database Backup
+
+BACKUP DATABASE NoodlesDW
+TO DISK = 'C:\Backups\NoodlesDW_Full.bak'
+WITH FORMAT, INIT, NAME = 'Full Backup of NoodlesDW';
+
+Code Backup
+All code versioned in Git
+Repository: https://github.com/yourname/noodles-analytics
+Branch: main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
