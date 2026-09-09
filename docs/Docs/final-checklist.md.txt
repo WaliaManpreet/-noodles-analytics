@@ -1,0 +1,51 @@
+# Final Project Checklist
+
+## Code & Scripts
+
+- [ ] All Python scripts execute without errors
+- [ ] `pip install` dependencies documented in task1.md / task6.md
+- [ ] SQL scripts create schema successfully
+- [ ] ETL pipeline runs end-to-end
+- [ ] Validation scripts pass all checks
+
+## Data Quality
+
+- [ ] 99%+ data quality score
+- [ ] No orphaned facts
+- [ ] Referential integrity maintained
+- [ ] SCD Type 2 working correctly
+- [ ] Reject files handled properly
+
+## Power BI
+
+- [ ] Dashboards load in < 5 seconds
+- [ ] All visuals display data
+- [ ] Cross-filtering works
+- [ ] Drill-through configured
+- [ ] Bookmarks functional
+- [ ] Published to Power BI Service
+- [ ] Scheduled refresh configured
+
+## Documentation
+
+- [ ] README.md complete with screenshots
+- [ ] Technical runbook written
+- [ ] User guide for stakeholders
+- [ ] Data dictionary created
+- [ ] Architecture diagram included
+- [ ] All code commented
+
+## Presentation
+
+- [ ] Demo presentation (10 slides)
+- [ ] Demo video recorded (10 min)
+- [ ] Key insights documented
+- [ ] Performance benchmarks included
+
+## Portfolio
+
+- [ ] GitHub repository public
+- [ ] Professional README
+- [ ] Screenshots added
+- [ ] Demo video uploaded
+- [ ] LinkedIn post drafted
